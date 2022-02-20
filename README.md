@@ -31,7 +31,7 @@ For geographic analysis of Citi Bike ridership throughout the day, I reformatted
 
 This project uses Python and pandas to manipulate and analyze data. Combined, the four years of data are over 84 million rows, so I learned how to optimize my functions, queries and data structures to expedite the analysis and reduce the burden on my computer. I learned plotnine shortly before beginning this project, and this was my first time putting it in action on a real-world dataset (rather than one built-in to the plotnine package). I also pushed the limits of my Tableau skills by creating an animated map. 
 
-## Further expansion
+## Further Developments
 
 Currently, the Tableau sheets are not embedded in the website and instead recordings of the animation are embedded. If the visualizations were embedded, the user would be able to stop and start the animation on the hour of their choosing and hover over each point to view the name of the station and the exact number of rides.
 
