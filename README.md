@@ -19,7 +19,7 @@ To compare with MTA ridership, I downloaded the single CSV containing daily ride
 
 ## Analysis
 
-[My Jupyter notebook](Citi%20Bike%20Analysis.ipynb) contains an anotated analysis. 
+[My Jupyter notebook](Citi%20Bike%20Analysis.ipynb) contains an annotated analysis. 
 
 After reading in the data and separating it into a dataframe for each year, I resampled the data by hour and calculated the percent of the day the rides that occured during that hour took up. I plotted the results using plotnine. This helped me identify shifts in Citi Bike rush hour. To quantify overall growth, I was able to simply calculate the percent change in the length of the dataframe for 2018 and the dataframe for 2021 because each row represents a ride. 
 
@@ -27,7 +27,7 @@ To compare with MTA Subway ridership, I loaded in the MTA daily ridership data. 
 
 For geographic analysis of Citi Bike ridership throughout the day, I reformatted the data by grouping each annual dataframe by latitude and longitude coordinates as well as the hour it occurred in, then extracting the top 10 most popular stations per hour. I pulled together the top 10 for each hour for each year into a single dataframe that I transformed into an animated map using Tableau. 
 
-## New skills & growth
+## Skills & Growth
 
 This project uses Python and pandas to manipulate and analyze data. Combined, the four years of data are over 84 million rows, so I learned how to optimize my functions, queries and data structures to expedite the analysis and reduce the burden on my computer. I learned plotnine shortly before beginning this project, and this was my first time putting it in action on a real-world dataset (rather than one built-in to the plotnine package). I also pushed the limits of my Tableau skills by creating an animated map. 
 
